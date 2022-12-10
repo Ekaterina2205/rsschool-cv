@@ -31,3 +31,43 @@ I am sure that a knowledge from your course will help me to achieve goals. Also,
 * Photoshop
 * CMS OpenCart/Drupal/Wordpress (Basic knowledge)
 
+****
+
+### Code example:
+
+**___Multiply the number___**
+
+```
+function multiply(number){
+  let degree;
+  if (String(number).includes('-')) {
+    degree = String(number).length - 1;
+  } else {
+    degree = String(number).length;
+  }
+  let result = number * (5 ** degree);
+  return result;
+}
+
+```
+****
+
+### Experience:
+
+I have developed sites as HTML/CSS coder on Drupal 7 for one year. Now I am working with an advertising company and creating simple landing pages.
+
+****
+
+### Courses: 
+
+* ___Fundamentals of Software Testing (QATestlab)___
+* ___HTM&CSS coding___
+* ___JavaScript/DOM/Interfaces course (learn.javascript.ru)___
+
+****
+
+### Languages:
+
+* **English** - A1 (I am currently improving my English and I am planning to achieve B2 in near year.) 
+* **Russian** - Native
+* **Ukrainian** - Native
