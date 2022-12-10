@@ -1,0 +1,22 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #1B1A1A;
+}
