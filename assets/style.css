@@ -23,10 +23,6 @@ body {
     margin: 0;
 }
 
-body {
-    padding: 2rem;
-}
-
 h1,
 h2,
 h3,
@@ -36,8 +32,18 @@ h6 {
     font-family: 'Unbounded', cursive;
 }
 
-a,
+a {
+    text-decoration: none;
+    color: #1B1A1A;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
 a:hover {
+    color: #e39356;
     text-decoration: none;
 }
 
@@ -63,6 +69,7 @@ li {
     padding: 40px 70px;
     display: flex;
     justify-content: space-between;
+    background: #f6f6f6;
 }
 
 .header-photo {
@@ -124,6 +131,154 @@ h2:after {
     position: relative;
     top: 5px;
     left: 0;
+}
+
+main.main {
+    padding: 40px 70px;
+    background: #f6f6f6;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-first-column {
+    width: 30%;
+}
+
+.main-second-column {
+    width: 64%;
+}
+
+.main-contacts {
+    background: #fbede0;
+    padding: 15px 25px 35px;
+    font-size: 16px;
+    border-radius: 45px 0px 0px 0px;
+}
+
+li.main-contacts-list span {
+    font-weight: 700;
+    position: relative;
+}
+
+li.main-contacts-list {
+    padding-left: 30px;
+}
+
+span:before {
+    top: 0;
+    left: -30px;
+    position: absolute;
+}
+
+span.main-contact-phone:before {
+    content: url('../assets/images/phone.png');
+}
+
+span.main-contact-email:before {
+    content: url('../assets/images/email.png');
+}
+
+span.main-contact-github:before {
+    content: url('../assets/images/github.png');
+}
+
+span.main-contact-telegram:before {
+    content: url('../assets/images/telegram.png');
+}
+
+.main-skills {
+    background: #fbebec;
+    padding: 15px 25px 35px;
+    font-size: 16px;
+    border-radius: 0px 45px 0px 0px;
+    margin-top: 50px;
+}
+
+ul.main-skills-list li {
+    padding-left: 28px;
+    position: relative;
+    font-weight: 500;
+}
+
+ul.main-skills-list li::before {
+    content: url('../assets/images/ok.png');
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+ul.main-skills-list li span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.main-experience {
+    background: #fbebec;
+    padding: 15px 25px 35px;
+    font-size: 16px;
+    border-radius: 45px 0px 45px 0px;
+}
+
+.main-courses {
+    background: #dbd2cf;
+    padding: 15px 25px 35px;
+    font-size: 16px;
+    border-radius: 0px 45px 0px 45px;
+    margin-top: 30px;
+}
+
+.main-courses-list ul li {
+    padding-left: 40px;
+    position: relative;
+    font-weight: 500;
+}
+
+.main-courses-list ul li::before {
+    content: url('../assets/images/courses.png');
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.main-languages {
+    background: #fbede0;
+    padding: 15px 25px 35px;
+    font-size: 16px;
+    border-radius: 0px 45px 0px 45px;
+    margin-top: 30px;
+}
+
+.main-code-example {
+    background: #dbd2cf;
+    padding: 15px 25px 10px;
+    font-size: 16px;
+    border-radius: 0px 45px 0px 45px;
+    margin-top: 30px;
+}
+
+.main-code-example pre {
+    margin: 0;
+}
+
+.main-code-example h4 {
+    margin-bottom: 0;
+}
+
+.main-courses-list ul li span {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.main-languages-list ul li span {
+    font-weight: 700;
+    color: #e39356;
+}
+
+.main-languages-list ul li span {
+    margin-right: 10px;
 }
 
 footer {
