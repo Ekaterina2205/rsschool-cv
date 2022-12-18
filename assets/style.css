@@ -60,10 +60,8 @@ li {
 
 .header-photo {
     width: 30%;
-    border: 3px solid #e39356;
     border-radius: 0px 80px 0px 80px;
     overflow: hidden;
-    box-shadow: 0px 0px 6px 1px #e3935673;
 }
 
 .header-info {
@@ -80,7 +78,7 @@ h1.header-info-name {
     line-height: 40px;
 }
 
-h2.header-info-profession {
+h3.header-info-profession {
     font-weight: 300;
 }
 
@@ -110,7 +108,7 @@ nav.header-menu ul li a:hover {
     color: #fff;
 }
 
-h3:after {
+h2:after {
     content: '';
     display: block;
     width: 60px;
