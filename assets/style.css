@@ -20,7 +20,11 @@ body {
     line-height: 27px;
     color: #1B1A1A;
     background: #e0e0e0;
-    margin: 20px 0;
+    margin: 0;
+}
+
+body {
+    padding: 2rem;
 }
 
 h1,
@@ -46,10 +50,13 @@ li {
 
 .container {
     max-width: 1200px;
+    height: 100%;
     margin: 0 auto;
-    padding: 0 15px;
     box-shadow: 0px 0px 16px 6px #c1c1c194;
     background: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header-inner {
@@ -117,4 +124,57 @@ h2:after {
     position: relative;
     top: 5px;
     left: 0;
+}
+
+footer {
+    background: #404040;
+    padding: 20px 70px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-github {
+    width: 33%;
+}
+
+.footer-year-of-creation {
+    width: 33%;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-logo-rsschool {
+    width: 33%;
+    text-align: right;
+}
+
+.footer-github a {
+    color: #fff;
+    font-weight: 500;
+    padding-left: 70px;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    position: relative;
+}
+
+.footer-github a:hover {
+    color: #e39356;
+}
+
+.footer-github a:before {
+    content: url('../assets/images/github-logo.png');
+    position: absolute;
+    top: -15px;
+    left: 0;
+}
+
+.footer-logo-rsschool a img {
+    height: 50px;
 }
